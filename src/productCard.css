@@ -1,0 +1,22 @@
+.product-card{
+background-color: white;
+color:black;
+margin:0.8em;
+padding:0.8em;
+}
+.product-card .title{
+    color: red;
+}
+.product-card .title:hover{
+  transition: ease-in 1s;
+  transform: rotate(360deg);
+   font-size: 50px;
+}
+.product-card .cost{
+    animation: blinker 1s linear infinite;
+}   
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
